@@ -1,0 +1,11 @@
+<div class="m-4">
+    <section class="text-center mb-4">
+        <h1>Descubre Zaragoza</h1>
+        <button class="btn btn-dark m-2">Ver mapa <i> [map] </i></button>
+    </section>
+
+    <!-- Sección: lo último en la ciudad -->
+    <section class="d-flex justify-content-center">
+        <app-card *ngFor="let event of eventList" [event]="event" ></app-card>
+    </section>
+</div>
