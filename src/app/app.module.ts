@@ -8,6 +8,10 @@ import { FooterComponent } from './modules/main/components/layout/footer/footer.
 import { HomeComponent } from './modules/main/components/pages/home/home.component';
 import { MapComponent } from './modules/main/components/pages/map/map.component';
 import { SharedModule } from './modules/shared/shared.module';
+import { PointOfInterestComponent } from './modules/main/components/pages/point-of-interest/point-of-interest.component';
+import { LoginComponent } from './modules/main/components/pages/auth/login/login.component';
+import { AuthComponent } from './modules/main/components/pages/auth/auth.component';
+import { RegisterComponent } from './modules/main/components/pages/auth/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { SharedModule } from './modules/shared/shared.module';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    MapComponent
+    MapComponent,
+    PointOfInterestComponent,
+    LoginComponent,
+    AuthComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

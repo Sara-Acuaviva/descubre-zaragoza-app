@@ -1,17 +1,10 @@
-<nav>
-    <div class="m-1">Logo</div>
-    <ul class="nav justify-content-end me-4">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Sitios de interés</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Mapa</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Iniciar sesión</a>
-        </li>
-    </ul>
+<nav class="d-flex justify-content-around align-items-center">
+    <div class="fw-bolder fs-2">Z G Z</div>
+
+    <div class="navbar justify-content-end">
+        <a class="nav-link active zgz-nav" aria-current="page" routerLink="home" routerLinkActive="active">Home</a>
+        <a class="nav-link zgz-nav" routerLink="pois" routerLinkActive="active">Sitios de interés</a>
+        <a class="nav-link zgz-nav" routerLink="map" routerLinkActive="active">Mapa</a>
+        <a class="nav-link btn-outline-nav" routerLink="auth/login">Iniciar sesión</a>        
+    </div>
 </nav>

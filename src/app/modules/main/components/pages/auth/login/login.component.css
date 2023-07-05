@@ -1,0 +1,11 @@
+.btn-01{
+    border-radius: 2px;
+    color: white;
+    background-color: #241F1F;
+    padding: 0.5rem;
+}
+
+.text-sm{
+    font-size: 14px;
+    color: #241F1F;
+}

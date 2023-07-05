@@ -1,0 +1,17 @@
+.auth-container{
+    height: calc(100vh - 200px);
+}
+.auth-text {
+    font-size: medium;
+    color: #706C6C;
+    text-decoration: none;    
+}
+
+.auth-text.active{
+    font-weight: 600;
+    text-decoration: overline 2px;
+}
+
+.btn-01{
+    border-radius: 8px;
+}

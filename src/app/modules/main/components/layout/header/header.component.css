@@ -1,0 +1,31 @@
+.btn-outline-nav {
+    border-radius: 6px;
+    border: 1.5px solid #706C6C;
+    color: #706C6C;
+    padding: 0.5rem;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.btn-outline-nav:hover {
+    background-color: #B82C02;
+    opacity: 0.8;
+    color: white;
+    border: 1.5px solid #B82C02;
+}
+
+.zgz-nav {
+    padding: 2rem;
+    columns: #706C6C;
+}
+
+.zgz-nav:hover {
+    color: #B82C02;
+    font-weight: 600;
+    text-decoration: overline 2px;
+}
+
+.zgz-nav.active {
+    font-weight: 600;
+    text-decoration: overline;
+}
