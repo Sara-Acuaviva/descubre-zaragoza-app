@@ -1,1 +1,9 @@
-<p>point-of-interest works!</p>
+<div class="m-4">
+    <section class="text-center mb-4">
+        <h1 class="pb-2">Lugares de interés</h1>                 
+            <section class="d-flex justify-content-center">
+                <app-card-horizontal *ngFor="let item of monumentList" [place]="item" ></app-card-horizontal>
+            </section>     
+    </section> 
+</div>
+

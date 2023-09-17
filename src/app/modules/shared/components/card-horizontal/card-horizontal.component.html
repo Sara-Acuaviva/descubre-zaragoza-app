@@ -1,0 +1,7 @@
+<div class="card card-zgz m-2" style="width: 18rem;">
+    <img [src]="place.image" class="card-img-top" alt="imagen">
+    <div class="card-body">
+        <h5>{{place.title}}</h5>        
+        <a class="d-flex justify-content-end" [routerLink]="['../detail', place.id]">ver más</a>
+    </div> 
+</div>

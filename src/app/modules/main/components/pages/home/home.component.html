@@ -1,11 +1,34 @@
 <div class="m-4">
     <section class="text-center mb-4">
-        <h1>Descubre Zaragoza</h1>
-        <button class="btn btn-dark m-2">Ver mapa <i> [map] </i></button>
+        <h1 class="pb-2">Descubre Zaragoza</h1>
+        <button class="btn btn-dark m-2" routerLink="../map">Ver mapa 
+            <fa-icon [icon]="mapIcon"></fa-icon>
+        </button>
     </section>
 
     <!-- Sección: lo último en la ciudad -->
-    <section class="d-flex justify-content-center">
-        <app-card *ngFor="let event of eventList" [event]="event" ></app-card>
+    <!-- <div class="py-4">
+        <h5 class="text-center">Lo último en la ciudad</h5>
+        <section class="d-flex justify-content-center">
+            <app-card *ngFor="let item of eventList" [event]="item" ></app-card>
+        </section>
+    </div> -->
+
+    <!-- Sección: lo + visitado -->
+    <div class="py-4">
+        <h5 class="text-center">Lo más visitados</h5>
+        <section class="d-flex justify-content-center">
+            <app-card *ngFor="let place of monumentList" [monument]="place" ></app-card>
+        </section>
+    </div>
+
+
+    <!-- Sección: ver todo -->
+    <section class="text-center py-4">
+        <h5 class="text-center">Organiza tu viaje</h5>
+        <button class="btn btn-dark m-2" routerLink="../pois">Empieza ahora 
+            <fa-icon [icon]="listIcon"></fa-icon>
+        </button>
     </section>
+
 </div>

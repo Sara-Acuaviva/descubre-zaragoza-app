@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Event } from 'src/app/modules/main/types';
+import { CulturalEvent, Monument } from 'src/app/modules/main/types';
 
 @Component({
   selector: 'app-card',
@@ -8,5 +8,6 @@ import { Event } from 'src/app/modules/main/types';
 })
 export class CardComponent {
   @Input()
-  event!: Event; 
+  monument!: Monument;
+
 }
